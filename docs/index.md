@@ -36,7 +36,7 @@ hide:
     </a>
 </div>
 <div class="grid-item">
-    <a href="/agglayer/how-to/transfer-and-call">
+    <a href="/agglayer/how-to/transfer-and-call/">
         <div class="product-list-item-header">
             <div class="feature-card-heading">Cross-chain Interop</div>
         </div>

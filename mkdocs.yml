@@ -69,8 +69,8 @@ nav:
 extra:
   generator: false
   analytics:
-    provider: custom
-    property: google    
+    provider: google
+    property: G-PM6L5JWEZP    
   social:
     - icon: fontawesome/solid/circle-question
       link: https://support.polygon.technology/support/solutions

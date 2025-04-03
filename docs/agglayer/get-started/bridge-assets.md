@@ -218,6 +218,20 @@ How to run:
 ```bash
 node claim_asset.js
 ```
+> **_NOTE_**: `Normally developers won't have to worry about this, but if you're having trouble claiming, be sure to run this against the Claim API`
+
+- **Claim API**: The merkle proof payload needed to process claims on the destination chain. 
+
+    - API endpoint are:
+    
+        - Testnet: `https://api-gateway.polygon.technology/api/v3/proof/testnet/merkle-proof?networkId={sourceNetworkId}&depositCount={depositCount}`
+        - Mainnet: `https://api-gateway.polygon.technology/api/v3/proof/mainnet/merkle-proof?networkId={sourceNetworkId}&depositCount={depositCount}`
+    
+    - `networkId` is the network ID registered on Agglayer, `0` for Ethereum/Sepolia, and `1` for Polygon zkEVM/Cardona, and more.
+    
+    - `depositCount` is the leaf index of the Local Exit Tree from the source chain(Explained in the next section). You can get the depositCount by checking the `bridgeAsset`/`bridgeMessage` event logs or use the Transaction API above to get the depositCount.
+
+    - Remember to attach your API Key in header!
 
 ## Step 7: Confirm the Final Transaction Status
 

@@ -48,23 +48,48 @@ theme:
     - toc.follow
     - content.code.copy
     - content.action.edit
+    - navigation.indexes
 
 nav:
   - Agglayer: 
       - Overview: index.md
       - Get Started:
-          -  Set up your environment: agglayer/get-started/bridge-assets.md
+        #- agglayer/get-started/index.md
+        -  Set up your environment: agglayer/get-started/bridge-assets.md
       - How To:
+         # - agglayer/how-to/index.md
           - Bridge an ERC-20 token: agglayer/how-to/transfer-asset.md
           - Call a smart contract cross-chain: agglayer/how-to/call-contract.md
           - Bridge-and-call in one step: agglayer/how-to/transfer-and-call.md
       - Core Concepts:
+          #- agglayer/core-concepts/index.md
           - Architecture: agglayer/core-concepts/architecture.md
           - Unified Bridge: agglayer/core-concepts/unified-bridge.md
           - Pessimistic Proof: agglayer/core-concepts/pessimistic-proof.md
           # - Multi-stack Interop: agglayer/core-concepts/connecting-chains.md
       - Additional Resources:
+          #- agglayer/add-res/index.md
           - Connected Chains: agglayer/add-res/connected-chains.md
+  - CDK:
+      - CDK: cdk/index.md
+      - Get Started:
+        - What is CDK?: cdk/get-started/overview.md
+        - Why choose CDK?: cdk/get-started/benefits.md
+      - cdk-opgeth:
+          - Deploy a local testnet: cdk/cdk-opgeth/local-guide.md
+          - Deploy a devnet: cdk/cdk-opgeth/devnet-deployment-guide.md
+          - Architecture: cdk/cdk-opgeth/architecture.md
+      - cdk-erigon:
+          - Deploy a local testnet: cdk/cdk-erigon/local-deployment.md
+          - Create a native token: cdk/cdk-erigon/use-native-token.md
+          - Architecture: cdk/cdk-erigon/architecture.md
+          - Migration Guides:
+              - General Guide: cdk/cdk-erigon/migrate/fork.md
+              - Fork ID 9 to 12: cdk/cdk-erigon/migrate/forkid-9-12.md
+              - Fork ID 7 to 9: cdk/cdk-erigon/migrate/forkid-7-to-9.md
+      - Additional Resources:
+          - Glossary: cdk/additional-resources/glossary.md
+          - FAQs: cdk/additional-resources/faqs.md
 
 extra:
   generator: false

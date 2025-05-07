@@ -46,7 +46,7 @@ hide:
   <h1 class="hero-heading">Agglayer CDK</h1>
   <p class="hero-subtext">
     A multistack toolkit for building custom Ethereum Layer&nbsp;2 (L2) chains, by Polygon Labs.
-    Each CDK chain is natively connected to <a href="../">Agglayer</a>, which enables seamless cross-chain interoperability,
+    Each CDK chain is natively connected to <a href="/">Agglayer</a>, which enables seamless cross-chain interoperability,
     shared liquidity, and unified state across an expanding ecosystem of L2s.
   </p>
 </div>
@@ -57,7 +57,7 @@ hide:
 <!-- the rest of your grid stays the same -->
 <div class="grid-container">
   <div class="grid-item">
-    <a href="./overview">
+    <a href="./get-started/overview">
       <div class="product-list-item-header">
         <div class="feature-card-heading">What is CDK?</div>
       </div>
@@ -65,7 +65,7 @@ hide:
     </a>
   </div>
   <div class="grid-item">
-    <a href="./benefits">
+    <a href="./get-started/benefits">
       <div class="product-list-item-header">
         <div class="feature-card-heading">Why Choose CDK?</div>
       </div>
@@ -73,7 +73,7 @@ hide:
     </a>
   </div>
   <div class="grid-item">
-    <a href="../cdk/resources/faqs">
+    <a href="./additional-resources/faqs">
       <div class="product-list-item-header">
         <div class="feature-card-heading">FAQs</div>
       </div>

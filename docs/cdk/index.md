@@ -57,7 +57,7 @@ hide:
 <!-- the rest of your grid stays the same -->
 <div class="grid-container">
   <div class="grid-item">
-    <a href="./get-started/overview">
+    <a href="/get-started/overview">
       <div class="product-list-item-header">
         <div class="feature-card-heading">What is CDK?</div>
       </div>
@@ -65,7 +65,7 @@ hide:
     </a>
   </div>
   <div class="grid-item">
-    <a href="./get-started/benefits">
+    <a href="/get-started/benefits">
       <div class="product-list-item-header">
         <div class="feature-card-heading">Why Choose CDK?</div>
       </div>
@@ -73,7 +73,7 @@ hide:
     </a>
   </div>
   <div class="grid-item">
-    <a href="./additional-resources/faqs">
+    <a href="/additional-resources/faqs">
       <div class="product-list-item-header">
         <div class="feature-card-heading">FAQs</div>
       </div>

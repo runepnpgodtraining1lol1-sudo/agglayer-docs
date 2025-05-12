@@ -54,22 +54,24 @@ nav:
   - Agglayer: 
       - Overview: index.md
       - Get Started:
-        #- agglayer/get-started/index.md
+        - agglayer/get-started/index.md
         -  Set up your environment: agglayer/get-started/bridge-assets.md
       - How To:
-         # - agglayer/how-to/index.md
-          - Bridge an ERC-20 token: agglayer/how-to/transfer-asset.md
-          - Call a smart contract cross-chain: agglayer/how-to/call-contract.md
-          - Bridge-and-call in one step: agglayer/how-to/transfer-and-call.md
+         - agglayer/how-to/index.md
+         - Bridge an ERC-20 token: agglayer/how-to/transfer-asset.md
+         - Call a smart contract cross-chain: agglayer/how-to/call-contract.md
+         - Bridge-and-call in one step: agglayer/how-to/transfer-and-call.md
       - Core Concepts:
-          #- agglayer/core-concepts/index.md
+          - agglayer/core-concepts/index.md
           - Architecture: agglayer/core-concepts/architecture.md
           - Unified Bridge: agglayer/core-concepts/unified-bridge.md
           - Pessimistic Proof: agglayer/core-concepts/pessimistic-proof.md
           # - Multi-stack Interop: agglayer/core-concepts/connecting-chains.md
       - Additional Resources:
-          #- agglayer/add-res/index.md
-          - Connected Chains: agglayer/add-res/connected-chains.md
+          - agglayer/additional-resources/index.md
+          - Connected Chains: agglayer/additional-resources/connected-chains.md
+          - 'Deep Dive: Pessimistic Proof ↗': "https://github.com/BrianSeong99/Agglayer_PessimisticProof_Benchmark/"
+          - 'Deep Dive: Unified Bridge ↗': "https://github.com/BrianSeong99/AggLayer_UnifiedBridge/"
   - CDK:
       - CDK: cdk/index.md
       - Get Started:

@@ -1,53 +1,50 @@
 ---
-title: Core Concepts
+title: Additional Resources
 hide:
   - toc
 ---
 
 <h1 style="text-align: center; font-size: 38px; font-weight: 700; font-family: 'Inter Tight', sans-serif;">
-  Core Concepts
+  Additional Resources
 </h1>
 
 <div style="display: flex; flex-direction: column; gap: 2rem; max-width: 800px; margin: 2rem auto 0;">
 
-  <!-- Concept 1 -->
+  <!-- Connected Chains -->
   <div style="display: flex; flex-direction: column;">
-    <a href="/agglayer/core-concepts/architecture" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
-      Architecture
+    <a href="/agglayer/additional-resources/connected-chains" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
+      Connected Chains
     </a>
     <p style="margin: 4px 0 8px; font-size: 15px; line-height: 1.6;">
-      A high-level breakdown of Agglayer’s design, roles, and modular components across chains.
+      Overview of which chains support Agglayer functionality and how they’re integrated into the network.
     </p>
     <div style="display: flex; gap: 1.5rem; font-size: 14px; opacity: 0.85;">
-      <a href="/agglayer/get-started/bridge-assets" style="text-decoration: none;">🧰 Bridge Asset</a>
       <a href="https://github.com/agglayer/agglayer-docs/issues" target="_blank" style="text-decoration: none;">📝 Open issue</a>
     </div>
   </div>
 
-  <!-- Concept 2 -->
+  <!-- Deep Dive: Pessimistic Proof -->
   <div style="display: flex; flex-direction: column;">
-    <a href="/agglayer/core-concepts/unified-bridge" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
-      Unified Bridge
+    <a href="https://github.com/BrianSeong99/Agglayer_PessimisticProof_Benchmark" target="_blank" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
+      Deep Dive: Pessimistic Proof ↗
     </a>
     <p style="margin: 4px 0 8px; font-size: 15px; line-height: 1.6;">
-      The mechanism that enables seamless bridging of assets and messages in one unified flow.
+      A detailed benchmark and reference implementation exploring Agglayer's fallback safety mechanism.
     </p>
     <div style="display: flex; gap: 1.5rem; font-size: 14px; opacity: 0.85;">
-      <a href="/agglayer/how-to/call-contract" style="text-decoration: none;">🧰 Bridge Message</a>
       <a href="https://github.com/agglayer/agglayer-docs/issues" target="_blank" style="text-decoration: none;">📝 Open issue</a>
     </div>
   </div>
 
-  <!-- Concept 3 -->
+  <!-- Deep Dive: Unified Bridge -->
   <div style="display: flex; flex-direction: column;">
-    <a href="/agglayer/core-concepts/pessimistic-proof" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
-      Pessimistic Proof
+    <a href="https://github.com/BrianSeong99/AggLayer_UnifiedBridge" target="_blank" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
+      Deep Dive: Unified Bridge ↗
     </a>
     <p style="margin: 4px 0 8px; font-size: 15px; line-height: 1.6;">
-      How Agglayer ensures safety with optimistic guarantees backed by pessimistic fallback verification.
+      Technical exploration of the unified bridge architecture, including flows and rationale.
     </p>
     <div style="display: flex; gap: 1.5rem; font-size: 14px; opacity: 0.85;">
-      <a href="/agglayer/how-to/transfer-and-call" style="text-decoration: none;">🧰 Bridge-and-Call</a>
       <a href="https://github.com/agglayer/agglayer-docs/issues" target="_blank" style="text-decoration: none;">📝 Open issue</a>
     </div>
   </div>

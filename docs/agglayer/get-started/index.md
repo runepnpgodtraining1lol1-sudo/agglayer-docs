@@ -11,7 +11,7 @@ hide:
 <div style="display: flex; flex-direction: column; gap: 2rem; max-width: 800px; margin: 2rem auto 0;">
 
   <div style="display: flex; flex-direction: column;">
-    <a href="/agglayer/get-started/bridge-assets" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
+    <a href="/agglayer/get-started/bridge-assets/" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
       Set up your environment
     </a>
     <p style="margin: 4px 0 8px; font-size: 15px; line-height: 1.6;">

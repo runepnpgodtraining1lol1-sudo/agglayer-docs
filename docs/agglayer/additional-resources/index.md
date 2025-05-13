@@ -12,7 +12,7 @@ hide:
 
   <!-- Connected Chains -->
   <div style="display: flex; flex-direction: column;">
-    <a href="/agglayer/additional-resources/connected-chains" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
+    <a href="/agglayer/additional-resources/connected-chains/" style="font-weight: 600; font-size: 18px; color: var(--blue); text-decoration: none;">
       Connected Chains
     </a>
     <p style="margin: 4px 0 8px; font-size: 15px; line-height: 1.6;">
@@ -32,7 +32,6 @@ hide:
       A detailed benchmark and reference implementation exploring Agglayer's fallback safety mechanism.
     </p>
     <div style="display: flex; gap: 1.5rem; font-size: 14px; opacity: 0.85;">
-      <a href="https://github.com/agglayer/agglayer-docs/issues" target="_blank" style="text-decoration: none;">📝 Open issue</a>
     </div>
   </div>
 
@@ -45,7 +44,6 @@ hide:
       Technical exploration of the unified bridge architecture, including flows and rationale.
     </p>
     <div style="display: flex; gap: 1.5rem; font-size: 14px; opacity: 0.85;">
-      <a href="https://github.com/agglayer/agglayer-docs/issues" target="_blank" style="text-decoration: none;">📝 Open issue</a>
     </div>
   </div>
 

@@ -1,3 +1,34 @@
+(function () {
+  let k = window.Kapa;
+  if (!k) {
+    let i = function () {
+      i.c(arguments);
+    };
+    i.q = [];
+    i.c = function (args) {
+      i.q.push(args);
+    };
+    window.Kapa = i;
+  }
+})();
+
+// keeps MkDocs from seeing the keydown
+function stopMkdocsShortcuts(e) {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const blocked = new Set(['/', 's', 'f', 'n', 'p', '.']);
+  if (blocked.has(e.key.toLowerCase())) {
+    e.stopImmediatePropagation();
+  }
+}
+
+Kapa('onModalOpen', () => {
+  window.addEventListener('keydown', stopMkdocsShortcuts, true);
+});
+
+Kapa('onModalClose', () => {
+  window.removeEventListener('keydown', stopMkdocsShortcuts, true);
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     var script = document.createElement("script");
     script.src = "https://widget.kapa.ai/kapa-widget.bundle.js";

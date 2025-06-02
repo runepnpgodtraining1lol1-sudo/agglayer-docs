@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
   script.setAttribute('data-button-position-top', '10px');
   script.setAttribute('data-button-position-right', '20px');
   script.setAttribute('data-button-text-font-size', '0.9rem');
+  script.setAttribute("data-user-analytics-cookie-enabled","true");
   script.setAttribute('data-button-text-color', '#000000');
   script.setAttribute('data-button-height', '3.8rem');
   script.setAttribute('data-button-width', '3.6rem');

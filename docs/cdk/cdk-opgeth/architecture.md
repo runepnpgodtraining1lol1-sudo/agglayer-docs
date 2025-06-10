@@ -7,7 +7,7 @@ This section describes the core components of the cdk-opgeth configuration acros
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Execution Layer           | [OP Geth Client](https://github.com/ethereum-optimism/op-geth) — Ethereum client modified for Optimism                   |
 | Consensus Layer           | [OP Node](https://github.com/ethereum-optimism/optimism) — Handles block production and synchronization                   |
-| AggKit - Oracle           | [AggOracle](https://github.com/agglayer/aggkit) — Updates global Ethereum Root (GER) onchain                              |
+| AggKit - Oracle           | [AggOracle](https://github.com/agglayer/aggkit) — Updates Global Exit Root (GER) onchain                              |
 | AggKit - Sender           | Sends certificates from the chain to Agglayer                                                                             |
 | Bridge API                | [zkevm-bridge-service](https://github.com/0xPolygonHermez/zkevm-bridge-service) — Enables messaging between chains        |
 | Data Availability Layer   | [OP Batcher](https://github.com/ethereum-optimism/optimism) — Sends transaction data to Ethereum Mainnet (Layer 1)       |

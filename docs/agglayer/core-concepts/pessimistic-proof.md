@@ -13,10 +13,22 @@ The pessimistic proof does not extend security to chains integrated with the Agg
 
 The Agglayer uses per-chain pessimistic proofs to ensure a complete view of all token and message transfers occurring over the protocol. This allows chains that may not trust one another to safely interoperate.
 
+## Integration with State Transition Proof
+
+The pessimistic proof works as part of the State Transition Proof system, specifically in the cross-chain verification layer. After the Aggchain Proof verifies both internal chain operations and bridge constraints, the pessimistic proof provides the final verification step to ensure asset balance consistency across the network.
+
+### Verification Flow
+
+1. **State Transition Proof**: Verifies internal chain operations (ECDSA or Validity Proof)
+2. **Aggchain Proof**: Verifies bridge constraints and combines internal verification with bridge verification
+3. **Pessimistic Proof**: Final verification of asset balance changes and nullifier updates
+
 
 ## Building a Pessimistic Proof
 
 For any cross-chain token transfer to be finalized such that the token may be withdrawn on the underlying L1, a valid pessimistic proof must be generated. Each chain connected to the Agglayer is required to provide some of the inputs necessary for building a valid pessimistic proof.
+
+The pessimistic proof now receives validated bridge events from the Aggchain Proof, ensuring that only verified cross-chain operations are processed.
 
 Note: For more on how the Agglayer settles bridge claims to the underlying L1, see: [Unified Bridge](https://docs.agglayer.dev/agglayer/core-concepts/unified-bridge/)
 
@@ -63,5 +75,3 @@ The pessimistic proof cryptographically attests to two statements:
 
 If the computation performed within the pessimistic proof is consistent, a valid proof is generated.
 
-!!! note
-    The Agglayer v0.2 allows rollups and validiums built with Polygon CDK to use the legacy settlement mechanism without generating a pessimistic proof.

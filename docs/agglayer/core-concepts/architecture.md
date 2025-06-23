@@ -31,15 +31,17 @@ The **unified bridge** is responsible for maintaining the data structures relate
 - **Message passing**: Enables contract-to-contract interactions across chains.
 - **State management and accounting**: Maintains Merkle proofs that ensure transactions are finalized before being processed on the destination chain.
 
-## State transition proofs
+## State transition proof
 
-The **state transition proof** system is Agglayer’s trust anchor, validating correctness at two complementary levels.
+**State transition proof** is trust validation process of local chain in Agglayer that ensures the security and validity of cross-chain operations. Think of it as a comprehensive verification system that works in two layers:
 
 #### How it works
-- **Internal validity proofs**  
-  Each connected chain periodically emits a zero-knowledge proof (or another supported proof type) attesting that all state transitions in its latest block or epoch are valid. The Agglayer node verifies this proof and posts the resulting certificate to L1.
-- **Cross-chain verification**  
-  For operations that span multiple chains, Aggchain proofs together with the **pessimistic proof** confirm that token balances and message commitments match the records stored in the **unified bridge**.
+
+- **State transition Proof (Validity Proof)**
+ This layer verifies that each chain's internal state transitions are valid. It's like checking that all transactions within a chain are properly executed and the chain's state is consistent. This is done via Validity Proof: A detailed verification of every operation in the chain, and other verification type can be added in the future.
+
+- **Cross-Chain Verification(Aggchain Proof & Pessimistic Proof)**
+   This layer verifies that cross-chain operations (like asset transfers between chains) are valid. It ensures that when assets move between chains, the operations are atomic and secure.
 
 #### Key functions
 - **End-to-end security**: A transaction is finalized only when both its internal validity proof and its cross-chain proof are accepted.  

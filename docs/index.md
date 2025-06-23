@@ -23,7 +23,7 @@ hide:
 
 <div class="hero-left" style="max-width: 85%; margin: 0 auto; padding: 20px; text-align: left;">
    <p class="hero-subtext">The Agglayer is an interoperability protocol that allows for trustless, cross-chain token transfers and message-passing, as well as more complex operations. The safety of the Agglayer is provided by ZK proofs.</p>
-   <p class="hero-subtext">The latest version of the Agglayer (v0.2) connects chains built with <a href="/cdk/">Agglayer CDK</a>, a developer toolkit for designing ZK-powered Layer 2s. Coming versions will support interoperability among additional blockchain architectures, including existing L2s, appchains, and non-EVM chains.</p>
+   <p class="hero-subtext">The latest version of the Agglayer (v0.3) features a comprehensive State Transition Proof system, Pessimistic Proof, and Unified Bridge that enable interoperability among diverse blockchain architectures including ZK-powered Layer 2s, existing L2s, appchains, and non-EVM chains.</p>
    <p class="hero-subtext">Agglayer CDK allows developers to launch CDK chains natively connected to Agglayer. Learn more about our <a href="/cdk/get-started/overview/#cdk-erigon">CDK-erigon</a> and <a href="/cdk/get-started/overview/#cdk-opgeth">CDK-opgeth</a> stacks</p>
 </div>
 

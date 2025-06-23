@@ -73,7 +73,7 @@ nav:
           - Connected Chains: agglayer/additional-resources/connected-chains.md
           - 'Deep Dive: Pessimistic Proof ↗': "https://github.com/BrianSeong99/Agglayer_PessimisticProof_Benchmark/"
           - 'Deep Dive: Unified Bridge ↗': "https://github.com/BrianSeong99/AggLayer_UnifiedBridge/"
-          - 'Deep Dive: State Transition Proof ↗': "https://github.com/BrianSeong99/Agglayer_v0.3/"
+          - 'Deep Dive: State Transition Proof ↗': "https://github.com/BrianSeong99/Agglayer_StateTransitionProof?tab=readme-ov-file#state-transition-proof"
   - CDK:
       - CDK: cdk/index.md
       - Get Started:

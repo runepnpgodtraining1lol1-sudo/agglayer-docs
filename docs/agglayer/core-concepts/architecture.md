@@ -30,3 +30,18 @@ The **unified bridge** is responsible for maintaining the data structures relate
 - **Cross-chain asset transfers**: Allows users to bridge assets between different chains.
 - **Message passing**: Enables contract-to-contract interactions across chains.
 - **State management and accounting**: Maintains Merkle proofs that ensure transactions are finalized before being processed on the destination chain.
+
+## State transition proofs
+
+The **state transition proof** system is Agglayer’s trust anchor, validating correctness at two complementary levels.
+
+#### How it works
+- **Internal validity proofs**  
+  Each connected chain periodically emits a zero-knowledge proof (or another supported proof type) attesting that all state transitions in its latest block or epoch are valid. The Agglayer node verifies this proof and posts the resulting certificate to L1.
+- **Cross-chain verification**  
+  For operations that span multiple chains, Aggchain proofs together with the **pessimistic proof** confirm that token balances and message commitments match the records stored in the **unified bridge**.
+
+#### Key functions
+- **End-to-end security**: A transaction is finalized only when both its internal validity proof and its cross-chain proof are accepted.  
+- **Atomic cross-chain execution**: Guarantees that assets and messages move between chains in a single, indivisible step.  
+- **Modular extensibility**: New proof mechanisms (optimistic, fraud, etc.) can be integrated without altering Agglayer’s external interface.

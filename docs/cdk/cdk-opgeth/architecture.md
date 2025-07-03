@@ -16,7 +16,7 @@ This section describes the core components of the cdk-opgeth configuration acros
 | Ethereum Bridge Contracts | [Polygon zkEVM Contracts](https://github.com/0xPolygonHermez/zkevm-contracts) — Manages final settlement on Ethereum     |
 
 
-### `cdk-opgeth-zkrollup` *(Not live yet)*
+### `cdk-opgeth-zkrollup`
 ![CDK-opgeth-zkrollup](img/cdk-opgeth-zkrollup.png)
 
 | Component                  | Description / Link                                                                                                      |
@@ -34,7 +34,7 @@ This section describes the core components of the cdk-opgeth configuration acros
 | Prover Network            | [SP1 Prover](https://github.com/succinctlabs/sp1) — zkVM-based prover                                                     |
 
 
-### `cdk-opgeth-validium` *(Not live yet)*
+### `cdk-opgeth-validium`
 > 💡 **Note:** This mode shares the same architecture as `zkrollup`, but uses an alternative data availability (DA) layer.
 
 | Component                  | Description / Link                                                                                                      |

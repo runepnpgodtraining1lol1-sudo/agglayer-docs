@@ -38,11 +38,13 @@ Before you begin, ensure that you have the following:
 
 ## Step 2: Configure Your Environment
 
-### 2.1 Update Your `config.js` File
+### 2.1 Create a `config.js` File
 
-Make sure your `config.js` contains the correct network settings, RPC endpoints, bridge contract addresses, and account details. (See the [Template File](../src/config.js) for a sample configuration). The reference `config.js` contains public RPCs as a placeholder, but it is recommended to get private RPCs for best results.
+Create a `config.js` with the correct network settings, RPC endpoints, bridge contract addresses, and account details. (See the [Template File](https://docs.agglayer.dev/agglayer/src/config.js) for a sample configuration). The reference `config.js` contains public RPCs as a placeholder, but it is recommended to get private RPCs for best results.
 
-### 2.2 Set Up the Utility File: `utils_lxly.js`
+You should also have a `.env` file with private key details (be sure to add this to `.gitignore` so you do not commit a private key to Github). A template is [here](https://github.com/BrianSeong99/Agglayer_UnifiedBridge/blob/main/scripts/.env.example)
+
+### 2.2 Create a Utility File: `utils_lxly.js`
 
 This file initializes your connection with the Unified Bridge using lxly.js. It configures network providers (using HDWalletProvider or similar) for both the source and destination networks. Reference file - [utils_lxly.js](../src/utils/utils_lxly.js)
 

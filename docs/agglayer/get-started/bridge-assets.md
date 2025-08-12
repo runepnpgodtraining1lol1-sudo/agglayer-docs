@@ -20,7 +20,7 @@ In this guide you will: <br>
 
 
 ---
-Refer to this repository for complete code - [Link](../src)
+Refer to this repository for complete code - [Link](https://github.com/BrianSeong99/AggLayer_UnifiedBridge)
 ---
 ## Step 1: Set up your Environment (Prerequisites)
 

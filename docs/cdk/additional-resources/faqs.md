@@ -10,13 +10,12 @@ Multistack support means CDK allows developers to select from different executio
 
 ## What is cdk-opgeth, and what does it offer?
 
-**cdk-opgeth** is a CDK stack based on Ethereum’s Geth client and the OP Stack architecture. It offers a familiar developer environment, high throughput, native Agglayer connectivity, and future support for zkRollup and Validium modes.
+**cdk-opgeth** is a CDK stack based on Ethereum’s Geth client and the OP Stack architecture. It offers a familiar developer environment, high throughput, native Agglayer connectivity, support for zkRollup and Validium modes, and Custom Gas Token support.
 
 ## How does cdk-erigon differ from cdk-opgeth?
 
 **cdk-erigon** is optimized for customization and ZK security. It supports:
 
-- Native gas tokens  
 - Three rollup modes (zkRollup, Validium, Sovereign)  
 - Advanced configuration options
 

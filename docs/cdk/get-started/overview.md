@@ -34,7 +34,7 @@ More stacks will be added soon. Whether you're building a DeFi protocol, launchi
 - Native Agglayer connectivity via Sovereign mode  
 - Built on Geth, which powers over 50% of Ethereum clients  
 - Designed by Conduit, core maintainers of cdk-opgeth and the G2 sequencer
-- Support for Custom Gas Token
+- Custom gas token support
 
 ### Who Should Use cdk-opgeth?
 

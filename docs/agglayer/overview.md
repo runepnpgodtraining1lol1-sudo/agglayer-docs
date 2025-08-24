@@ -51,4 +51,12 @@ hide:
         <p class="feature-paragraph">Designed to be chain-agnostic, the pessimistic proof ensures safety for the Agglayer</p>
     </a>
 </div>
+<div class="grid-item">
+    <a href="/agglayer/aggsandbox/">
+        <div class="product-list-item-header">
+            <div class="feature-card-heading">AggSandbox</div>
+        </div>
+        <p class="feature-paragraph">Testing and development environment for Agglayer bridge operations</p>
+    </a>
+</div>
 </div>

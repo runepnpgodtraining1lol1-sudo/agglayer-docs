@@ -68,6 +68,20 @@ nav:
           - Pessimistic Proof: agglayer/core-concepts/pessimistic-proof.md
           - State Transition Proof: agglayer/core-concepts/state-transition-proof.md
           # - Multi-stack Interop: agglayer/core-concepts/connecting-chains.md
+      - AggSandbox:
+          - agglayer/aggsandbox/index.md
+          - Get Started:
+            - Quickstart: agglayer/aggsandbox/quickstart.md
+            - Installation: agglayer/aggsandbox/installation.md
+          - Core Concepts:
+            - Architecture: agglayer/aggsandbox/architecture.md
+            - Bridge Basics: agglayer/aggsandbox/bridge-basics.md
+          - Bridge Operations:
+            - Asset Bridging: agglayer/aggsandbox/asset-bridging.md
+            - Message Bridging: agglayer/aggsandbox/message-bridging.md
+            - Bridge-and-Call: agglayer/aggsandbox/bridge-and-call.md
+          - Reference:
+            - CLI Commands: agglayer/aggsandbox/cli-commands.md
       - Additional Resources:
           - agglayer/additional-resources/index.md
           - Connected Chains: agglayer/additional-resources/connected-chains.md

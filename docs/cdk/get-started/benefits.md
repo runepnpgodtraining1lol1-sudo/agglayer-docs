@@ -38,6 +38,5 @@ Launch performant, production-ready chains quickly with help from trusted implem
 
 Build secure and scalable blockchain infrastructure with enterprise-level configurability. For example, **cdk-erigon** offers full customization, including:
 
-- Native gas token support  
 - Three live ZK-secured rollup modes  
 - Enhanced flexibility for enterprise-grade Layer 2s
